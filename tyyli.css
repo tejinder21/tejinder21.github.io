@@ -39,7 +39,7 @@ h1{
     margin: 40px 8px;
 }
     .kuva {
-        max-width: 400px;
+        max-width: 100%;
         vertical-align: middle;
         width: 100%;
     
