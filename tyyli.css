@@ -40,9 +40,10 @@ h1{
     margin: 40px 8px;
 }
     .kuva {
-        max-width: 100%;
-        vertical-align: middle;
         width: 100%;
+        height: auto;
+        opacity: o.3;
+    
     
     
 }
