@@ -40,9 +40,9 @@ h1{
     margin: 40px 8px;
 }
     .kuva {
-        width: "300";
-        height: "300";
-        border-radius: 50%;
+        max-width: 100%;
+        height: auto;
+
     
     
     
