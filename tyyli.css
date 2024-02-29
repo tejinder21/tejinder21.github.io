@@ -27,10 +27,16 @@ h1{
     font-weight: bold;
 
 }
-    .kuva {
-        max-width: 100%;height: auto;
+.row{
+        display: flex;
+        flex-wrap: wrap;    
+}
+.sisalto{
+        flex-basis: 50%;
+        position: relative;
 
-    
-    
-    
+}
+.kuva{
+    width: 100;
+    margin-top: 10px;
 }
