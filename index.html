@@ -13,18 +13,26 @@
     <header id="etusivu">
         <nav>
             <a href="index.html" id="valittu">Koti</a>
-            <a href="tuotteet.html">Tuotteet</a>
-            <a href="yhteistiedot.html">Yhteystiedot</a>    
+            <a href="Tuotteet.html">Tuotteet</a>
+            <a href="Yhteistiedot.html">Yhteystiedot</a>    
         </nav>
         <br>
         <br>
         <h1 id="slogan">Paranna elämänlaatuasi luonnollisesti</h1>
         
         <div class="card">
-            
             <p class="lue-lisaa"></p> <!-- Tässä korjattu luokan nimi -->
-            <p><button>  Katso meidän tuotteet!</button></p>
+            <p><button id="tuotteetButton">Katso meidän tuotteet!</button></p>
         </div>
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                document.getElementById("tuotteetButton").addEventListener("click", function() {
+                    window.location.href = "Tuotteet.html"; // Ohjaa käyttäjän suoraan tuotesivulle
+                });
+            });
+        </script>
+        
     </header>
 
     <div class="sisalto">
@@ -45,7 +53,7 @@
         </div>
         <div class="grid-kuva">
             <figure>
-                <img class="kuva" src="Tuotteen kuva 2.png" alt="Vitamiini, joka sisältää kurkuma">
+                <img class="kuva" src="Tuotteen kuva .png" alt="Vitamiini, joka sisältää kurkuma">
                 <figcaption>Meidän vitamiinimme sisältää kurkuma</figcaption>
             </figure>
         </div>
@@ -75,4 +83,7 @@
 
 </body>
 </html>
+
+
+
 
