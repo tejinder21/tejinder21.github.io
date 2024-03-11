@@ -36,16 +36,18 @@ nav a:hover {
 /* Etusivun ja tuotesivun taustakuvan tyylit */
 #etusivu,
 #alisivut {
-    background-image: url('kurkuma tuotteet sivu .jpeg');
+    background-image: url(kurkuma\ tuotteet\ sivu\ .jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
 }
 
+
 #etusivu {
     background-image: url('kurkuma.jpg');
+    
+    
 }
-
 /* Tuotteiden koot responsiivisesti */
 .product {
     width: 90%; /* Tuotteen leveys 90% näytöstä */
@@ -82,21 +84,9 @@ nav a:hover {
     transition: background-color 0.3s;
 }
 
-button {
-    background-color: #030809; /* Vihreä väri */
-    color: white; /* Valkoinen teksti */
-    padding: 15px 20px; /* Lisätään sisätilaa */
-    border: none; /* Poistetaan reuna */
-    border-radius: 5px; /* Pyöristetään kulmat */
-    cursor: pointer; /* Osoitin muuttuu käsiksi */
-    font-size: 16px; /* Tekstin koko */
-    transition: background-color 0.3s; /* Lisätään siirtymä */
+.product a:hover {
+    background-color: #0056b3;
 }
-
-button:hover {
-    background-color: #000400; /* Tummempi vihreä väri hover-tilassa */
-}
-
 
 /* Responsiiviset tyylit */
 @media (max-width: 600px) {
@@ -104,6 +94,7 @@ button:hover {
         width: 90%; /* Tuotteen leveys 90% näytöstä */
     }
 }
+
 
 #slogan {
     color: #fcfcfc; /* Tekstin väri */
