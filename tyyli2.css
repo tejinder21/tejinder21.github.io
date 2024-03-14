@@ -44,7 +44,7 @@ nav a:hover {
 
 /* Etusivun taustakuvan tyylit */
 #yhteystiedot {
-    background-image: url(kapselimuodossa\ kurkuma\ .jpeg); /* Taustakuva */
+    background-image: url(kapselimuodossakurkuma.jpeg); /* Taustakuva */
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
