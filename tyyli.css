@@ -36,7 +36,7 @@ nav a:hover {
 /* Etusivun ja tuotesivun taustakuvan tyylit */
 #etusivu,
 #alisivut {
-    background-image: url('kurkuma tuotteet sivu .jpeg');
+    background-image: url('kurkumatuotteetsivu.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
