@@ -10,6 +10,22 @@ body {
 h1, h2, h3, p {
     color: #2C3E50;
 }
+.esittely {
+    text-align: center;
+}
+.grid-teksti1 {
+    text-align: center;
+}
+.grid-teksti2 {
+    text-align: center;
+}
+.grid-teksti1 p {
+    text-align: center;
+
+}
+.grid-teksti2 p {
+    text-align: center;
+}
 
 /* Navbarin tyylit */
 nav {
